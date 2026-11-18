@@ -3,7 +3,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://${DB_HOST:book-postgres}:5432/labtest
+    url: jdbc:postgresql://${DB_HOST:student-postgres}:5432/labtest
     username: ${DB_USER:postgres}
     password: ${DB_PASS:labtest123}
     driver-class-name: org.postgresql.Driver
