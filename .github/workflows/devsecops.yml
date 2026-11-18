@@ -36,6 +36,10 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
+          
+      - name: Build with Maven
+        run: |
+          mvn clean package -DskipTests
 
       # --------------------------------
       # 3. SonarCloud SAST Scan
